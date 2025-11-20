@@ -3,12 +3,11 @@ package controllers
 import (
 	"context"
 	"errors"
+	"go-project/database"
+	"go-project/models"
 	"log"
 	"net/http"
 	"time"
-
-	"github.com/akhil/ecommerce-yt/database"
-	"github.com/akhil/ecommerce-yt/models"
 
 	"github.com/gin-gonic/gin"
 	"go.mongodb.org/mongo-driver/bson"
